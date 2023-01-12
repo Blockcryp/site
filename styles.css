@@ -1,0 +1,27 @@
+#popup form {
+  display: flex;
+  flex-direction: column;
+}
+
+#popup label {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+#popup input[type="text"], #popup input[type="email"], #popup input[type="tel"], #popup textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+#popup input[type="submit"] {
+  background-color: #ff0000; /* red background color */
+  color: #fff; /* white text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}

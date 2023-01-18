@@ -11,17 +11,13 @@
     
 </head>
 <body>
-    
- <!-- The iframe element -->
-<iframe id="myIframe" src="" style="display:none;"></iframe>
+
 
 <script>
-  // JavaScript code to load the iframe in a popup on page load
-  window.onload = function() {
     var iframe = document.getElementById("myIframe");
     iframe.src = "https://f555bf81.sibforms.com/serve/MUIEAAl6aQi3VI9GanOZifNJ9Yevt12GXmtnzzrdT-JEYd_Vgs7j7z-eaYQuNLhaq_jHbIPiJOu5Ajb8lVlTHCxqxzt6EuDVqdVOemdQ-d2zSgRbdjErjnC6f8Ijp3mFQL6Bxa5FmhGq9XvHGtmHRb-kiaHAMAbTN9_b2ywY0bK_CrVsaeIGpyjyx5b5N5wDNffVYliWucNu2bbr";
-    iframe.style.display = "block";
-  }
+    window.open(iframe.src,'popup','height=600,width=800');
+
 </script>
  
 </body>
